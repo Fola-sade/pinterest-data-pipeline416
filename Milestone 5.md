@@ -8,7 +8,7 @@ From within the `API Gateway` console select the `API` (<your_UserId>) and creat
 
 When creating the proxy integration, it provides access to many resources and features at once, without specifying multiple resource paths using the greedy parameter, {proxy+}. 
 
-For the previously created resource, '{proxy+}', the integration is set up by selecting the 'ANY' resource (allowing access to all available resources) followed by the 'Edit integration' button. Under the Edit integration request > Method details, select 'HTTP' and toggle the 'HTTP proxy integration'. For 'HTTP method' select 'ANY' and for 'Endpoint URL' enter the Kafka Client Amazon EC2 Instance Public IPv4 DNS (obtained by navigating to the EC2 console and selecting the client EC2 machine, looking for Public IPv4 DNS and copying this). The endpoint URL has the following format: http://KafkaClientEC2InstancePublicDNS:8082/{proxy}
+For the previously created resource, '{proxy+}', the integration is set up by selecting the 'ANY' resource (allowing access to all available resources) followed by the 'Edit integration' button. Under the Edit integration request > Method details, select 'HTTP' and toggle the 'HTTP proxy integration'. For 'HTTP method' select 'ANY' and for 'Endpoint URL' enter the Kafka Client Amazon EC2 Instance Public IPv4 DNS (obtained by navigating to the EC2 console and selecting the client EC2 machine, looking for Public IPv4 DNS and copying this). The endpoint URL has the following format: http://KafkaClientEC2InstancePublicDNS:8082/{proxy+}
 
 
 Select the 'Deploy API' button from the top-right corner of the API page.
