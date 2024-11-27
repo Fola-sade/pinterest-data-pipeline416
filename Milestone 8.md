@@ -12,7 +12,7 @@ An Airflow DAG that triggers a Databricks Notebook to run on a specific schedule
 - start_date=datetime(<2024, 4, 24>)
 - schedule_interval='@daily'
 - existing_cluster_id='<existing_cluster_id>'
--'retries': 3
+- 'retries': 3
 
 
 This DAG is uploaded to the dags folder on `AWS S3` in the `mwaa-dags-bucket` in the object `dags/` folder.
