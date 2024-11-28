@@ -7,7 +7,7 @@ Databricks Workloads are orchestrated on AWS MWAA (Managed Workflows for Apache 
 The `AWS` account had been been provided with access to a MWAA environment `Databricks-Airflow-env` and to its `S3` bucket `mwaa-dags-bucket`.
 
 An Airflow DAG that triggers a Databricks Notebook to run on a specific schedule was created, [your_UserId_dag.py](../your_UserId_dag.py). Note to find the `existing_cluster_id` required, navigate to the following, databricks > Compute > Cluster (i.e. 'Pinterest Cluster') > More ... > View JSON > cluster_id; as seen in the picture below. Also note to change the following in the DAG with your own details by replacing anything within '<>': 
-- 'notebook_path': '</Workspace/Users/path/to/your/notebook>'
+- 'notebook_path': '</Workspace/Users/path/to/your/notebook-name>'
 - 'owner': '<your_name>'
 - start_date=datetime(<2024, 4, 24>)
 - schedule_interval='@daily'
