@@ -148,7 +148,7 @@ Databricks Workloads are orchestrated on `AWS MWAA` (Managed Workflows for Apach
 
 Create and upload a `DAG` to a `AWS MWAA` environment. Access to a `MWAA` environment `Databricks-Airflow-env` and to its `S3` bucket `mwaa-dags-bucket` had been provided. 
 
-An `Airflow DAG `was created that triggers two Databricks Notebooks(Queries.py and Data Clining the dataframes.py) to be run on a specific schedule. This `DAG` was uploaded to the dags folder in the `mwaa-dags-bucket` with the following naming, `<your_UserId>_dag.py`.
+An `Airflow DAG `was created that triggers two Databricks Notebooks(Queries.py and Data Cleaning the dataframes (1).py) to be run on a specific schedule. This `DAG` was uploaded to the dags folder in the `mwaa-dags-bucket` with the following naming, `<your_UserId>_dag.py`.
 
 Manually trigger the DAG and verify its successful execution.
 
