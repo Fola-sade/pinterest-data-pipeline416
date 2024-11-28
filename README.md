@@ -156,7 +156,7 @@ Manually trigger the DAG and verify its successful execution.
 
 Here's a sample run - ![Scheduler Run](SchedulerRun.png)
 
-For further details follow - [user_posting_emulation_streaming.py](Milestone 8.py)
+For further details follow - [Milestone 8 Outline](Milestone_8.py)
 
 ## Stream Processing:
 
