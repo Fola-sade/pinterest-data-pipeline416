@@ -176,7 +176,7 @@ Once data has been sent to Kinesis Data Stream (as above), a successful 200 resp
 
 - Navigate to the `Kinesis` console and select the 'stream' you want to look at
 - Choose the 'Data viewer' section
-- Select the 'Shard' (data will normally be stored in the first shard shardId-000000000000 but check others also).
+- Select the 'Shard' (data will normally be stored in the first shard shardId-000000000000 but check others too).
 - 'Starting position' select 'At timestamp'. 
 - 'Start date', corresponds to the date at which you send data to your stream 
 - 'Start time', the time (approximation) at which you start sending data
