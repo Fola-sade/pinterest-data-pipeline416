@@ -132,8 +132,6 @@ Create three DataFrames:
 
 This summary outlines the tasks involved in configuring `Databricks`, mounting an `S3` bucket and reading data.
 
-Check here for more detail - [Milestone 6 Outline](Milestone_6.md)
-
 - ### Milestone 7: Batch processing - Spark on Databricks
 
 Perform data cleaning and computations using Spark on Databricks. Apply this to all 3 PySpark DataFrames:
