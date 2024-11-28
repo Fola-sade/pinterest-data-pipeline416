@@ -156,7 +156,7 @@ Manually trigger the DAG and verify its successful execution.
 
 Here's a sample run - ![Scheduler Run](SchedulerRun.png)
 
-For further details follow - [Milestone 8 outline](Milestone_8.md)
+For further details follow - [Milestone 8 outline](Milestone 8.md)
 
 ## Stream Processing:
 
@@ -174,5 +174,5 @@ An API is reconfigured with Kinesis Proxy Integration. This requires the creatio
 
 Databricks ([streaming_data_processing to Kinesis](Streaming_data_processing.py)) then cleans the ingests streamed data from Kenisis and writes it into delta tables.
 
-For further details follow - [Milestone 9 outline](Milestone_9.md)
+For further details follow - [Milestone 9 outline](Milestone 9.md)
 
