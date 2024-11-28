@@ -81,7 +81,7 @@ Create three topics:
 - `<your_UserId>.geo` for post geolocation data, and 
 - `<your_UserId>.user` for post user data.
 
-Check here for more detail - Milestone 3.md
+Check here for more detail - [Milestone 3 Outline](Milestone_3.py)
 
 ## Milestone 4: Batch Processing - Connect a MSK cluster to a S3 bucket
 
@@ -98,7 +98,7 @@ Configure the connector with the correct bucket name (`user-<your_UserId>-bucket
 Assign the `IAM role` used for authentication to the MSK cluster (`<your_UserId>-ec2-access-role`) in the Access permissions tab.
 Upon completing these tasks, data passing through the `IAM authenticated` cluster will be automatically stored in the designated `S3` bucket.
 
-Check here for more detail - Milestone_4.md
+Check here for more detail - [Milestone 4 Outline](Milestone_4.py)
 
 ## Milestone 5: Batch Processing - Configuring an API in API Gateway
 
@@ -114,7 +114,7 @@ The REST proxy on the EC2 client machine is started.
 Then send data to the API after modifying the `user_posting_emulation_basic.py` script to `user_posting_emulation_batch.py` and send data to the Kafka topics via the `API Invoke URL`.
 Confirm data storage in the `S3` bucket, observing the folder organisation created by the `connector`.
 
-Check here for more detail - Milestone 5.md
+Check here for more detail - [Milestone 5 Outline](Milestone_5.py)
 
 - ### Milestone 6: Batch Processing - Databricks
 This milestone focuses on setting up a `Databricks` account and learning to read data from `AWS` into `Databricks`.
@@ -174,5 +174,5 @@ An API is reconfigured with Kinesis Proxy Integration. This requires the creatio
 
 Databricks ([streaming_data_processing to Kinesis](Streaming_data_processing.py)) then cleans the ingests streamed data from Kenisis and writes it into delta tables.
 
-For further details follow - Milestone 9.md
+For further details follow - [Milestone 9 Outline](Milestone_9.py)
 
